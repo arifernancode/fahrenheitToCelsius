@@ -7,6 +7,7 @@ body {
     height: 20px;
     background-color: lightblue;
     border: double black 6px;
+    padding: 3.5px 0 3.5px 0;
 }
 #FahrenheitOrCelsius {
     height: auto;
