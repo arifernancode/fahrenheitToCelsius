@@ -1,12 +1,27 @@
 body {
     background-color: lightcoral;
     text-align: center;
-    border-radius: 10px;
 }
 #numberOfMK {
-    text-align: center;
-    width: 75px;
+    width: 150px;
+    height: 20px;
+    background-color: lightblue;
+    border: double black 6px;
+}
+#FahrenheitOrCelsius {
+    height: auto;
+    padding: 5px 5px 5px 5px;
+    border: double black 6px;
 }
 #convertButton {
-    background-color: lightcoral;
+    background-color: lightgreen;
+    padding: 10px 15px 10px 15px;
+    border-radius: 80px;
+    border: solid black 8px;
+}
+#finalTemp {
+    text-align: center;
+    border: solid darkcyan 4px;
+    border-radius: 100px 100px 100px 100px;
+    background-color: lightblue;
 }

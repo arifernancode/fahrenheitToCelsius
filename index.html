@@ -7,9 +7,9 @@
         <title>Index</title>
     </head>
     <body>
-        <input type="number" placeholder="NUMBER" id="numberOfMK">
+        <input type="number" placeholder="    NUMBER" id="numberOfMK">
 
-        <select>
+        <select id="FahrenheitOrCelsius">
             <option>Fahrenheit To Celsius</option>
             <option>Celsius To Fahrenheit</option>
         </select>
@@ -18,7 +18,9 @@
         <button onclick="convert()" id="convertButton">Convert</button>
         <br>
 
-        <h2>0° Fahrenheit</h2>
+        <div style="text-align: center;">
+            <h2 id="finalTemp">0° Fahrenheit</h2>
+        </div>
 
         <script src="script.js"></script>
     </body>

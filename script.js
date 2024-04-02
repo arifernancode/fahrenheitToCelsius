@@ -1,7 +1,7 @@
 function convert() {
     const INPUT_VALUE = document.querySelector("input").value;
     const TEXT = document.querySelector("h2");
-    const dropDown = document.querySelector("select");
+    const dropDown = document.getElementById("FahrenheitOrCelsius");
     
     if(dropDown.value === "Fahrenheit To Celsius") {
         const newValue = (INPUT_VALUE - 32) * 5/9;
